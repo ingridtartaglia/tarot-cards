@@ -148,7 +148,7 @@ $(document).ready(function(){
 			function(){
 				$(this).removeClass('animated flipInY');
 				$("#tc-placeholder-text").append(
-					"<p class='tc-subtitle lead'>" + card.name + "</p>" +
+					"<p class='tc-subtitle lead'>" + card.name + "</p><hr>" + 
 					"<p class='tc-text'>" + card.description + "</p>");
 				
 				$("#tc-placeholder-text").addClass('animated fadeIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',

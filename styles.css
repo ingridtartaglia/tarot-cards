@@ -9,6 +9,12 @@
 	margin-right: 0;
 }
 
+hr { 
+	border-top: 1px solid #A9A2B4;
+    width: 5em;
+    margin-left: 0;
+}
+
 @media screen and (min-width: 768px) {
 	h1 {
 		font-size: 2.827em;
