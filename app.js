@@ -63,7 +63,7 @@ $(document).ready(function(){
 			name: "The Hermit",
 			src: "img/9-eremita.jpg",
 			description: "The Hermit represents spending time alone, seeking for spiritual guidance. It's a good time to be introspective. " +
-			"Maybe you will learn something important today, or share your knowledge and wisdom with others. " +
+			"Maybe you will learn something important today, or share your knowledge and wisdom with others. " 
 		},
 		{
 			name: "Wheel of Fortune",
