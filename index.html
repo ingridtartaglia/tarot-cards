@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta charset="UTF-8">
 	<title>#4 - Tarot Cards</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="styles.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<h1 class="tc-title">Daily Tarot</h1>
-	<h3 class="tc-subtitle">Click on the card to reveal your daily tarot.</h3>
-	<div class="tc-placeholder" id="tc-ph-img">
+	<div class="container-fluid row">
+		<h1 class="tc-title col-xs-12 text-center">Daily Tarot</h1>
 	</div>
-	<div class="tc-placeholder" id="tc-ph-text">
+	<div class="container-fluid row">
+		<div class="tc-placeholder col-xs-12 col-sm-6" id="tc-placeholder-img">
+			<img src="img/dorso.jpg" class="tc-img img-responsive">
+		</div>
+		<div class="tc-placeholder col-xs-12 col-sm-6" id="tc-placeholder-text">
+			<p class="tc-step lead col-xs-12">Click on the card to reveal your daily tarot.</p>
+		</div>
 	</div>
 
 
