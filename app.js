@@ -140,8 +140,7 @@ $(document).ready(function(){
 
 
 	$(".tc-img").click(function(){
-		//var card = tarotCards[Math.floor(Math.random()*tarotCards.length)];
-		var card = tarotCards[1];
+		var card = tarotCards[Math.floor(Math.random()*tarotCards.length)];
 
 		$(this).remove();
 		$("#tc-placeholder-img").append("<img src='" + card.src + "' class='tc-img img-responsive'>");
