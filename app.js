@@ -147,10 +147,17 @@ $(document).ready(function(){
 		$(".tc-img").addClass('animated flipInY').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
 			function(){
 				$(this).removeClass('animated flipInY');
+				$("#tc-placeholder-text").append(
+					"<p class='tc-subtitle lead'>" + card.name + "</p>" +
+					"<p class='tc-text'>" + card.description + "</p>");
+				
+				$("#tc-placeholder-text").addClass('animated fadeIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+					function(){
+						$(this).removeClass('animated fadeIn');
+					});
 			});
 		$(".tc-step").remove();
-		$("#tc-placeholder-text").append(
-			"<p class='tc-subtitle lead'>" + card.name + "</p>" +
-			"<p class='tc-text'>" + card.description + "</p>");
+
+		
 	});
 });
